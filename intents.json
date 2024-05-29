@@ -1,0 +1,202 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good morning",
+          "Good evening"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What can I do for you?",
+          "Hey! How can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Goodbye",
+          "See you later",
+          "Bye",
+          "Have a nice day",
+          "Catch you later"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later!",
+          "Bye! Take care!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "I appreciate it",
+          "Thanks a lot"
+        ],
+        "responses": [
+          "You're welcome!",
+          "No problem!",
+          "My pleasure!",
+          "Anytime!"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Can you help me?",
+          "I need some assistance",
+          "Can you assist me?",
+          "I need help"
+        ],
+        "responses": [
+          "Of course! What do you need help with?",
+          "Sure, I'm here to assist you. What do you need?",
+          "I'd be happy to help. What seems to be the problem?"
+        ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "What are your hours?",
+          "When are you open?",
+          "When do you close?"
+        ],
+        "responses": [
+          "We are open from 9 AM to 5 PM, Monday to Friday.",
+          "Our business hours are 9 AM to 5 PM on weekdays.",
+          "We operate from 9 AM to 5 PM, Monday through Friday."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where are you located?",
+          "What is your address?",
+          "Where can I find you?"
+        ],
+        "responses": [
+          "We are located at 123 Main Street, Anytown, USA.",
+          "Our address is 123 Main Street, Anytown, USA.",
+          "You can find us at 123 Main Street, Anytown, USA."
+        ]
+      },
+      {
+        "tag": "pricing",
+        "patterns": [
+          "How much does it cost?",
+          "What are your prices?",
+          "How much do you charge?",
+          "What is the price?"
+        ],
+        "responses": [
+          "Our pricing varies depending on the service. Could you specify what service you are interested in?",
+          "We offer different services at different price points. Please tell me more about what you need.",
+          "Our prices range from $50 to $500. Please provide more details so I can give you an exact quote."
+        ]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "What services do you offer?",
+          "Can you tell me about your services?",
+          "What do you do?",
+          "What can you help with?"
+        ],
+        "responses": [
+          "We offer a variety of services including web development, graphic design, and digital marketing.",
+          "Our services include web development, graphic design, SEO, and content creation.",
+          "We specialize in web development, graphic design, and digital marketing. How can we assist you today?"
+        ]
+      },
+      {
+        "tag": "appointment",
+        "patterns": [
+          "I need to book an appointment",
+          "Can I schedule a meeting?",
+          "I want to make an appointment",
+          "How can I book an appointment?"
+        ],
+        "responses": [
+          "You can book an appointment through our website or by calling us at (123) 456-7890.",
+          "To schedule a meeting, please visit our booking page or contact our office at (123) 456-7890.",
+          "Appointments can be booked online via our website or by phone at (123) 456-7890."
+        ]
+      },
+      {
+        "tag": "cancellation",
+        "patterns": [
+          "How do I cancel my appointment?",
+          "I need to cancel my booking",
+          "Can I cancel my appointment?",
+          "Cancel my appointment"
+        ],
+        "responses": [
+          "You can cancel your appointment by visiting our website or calling us at (123) 456-7890.",
+          "To cancel your booking, please go to our cancellation page or contact us at (123) 456-7890.",
+          "Appointments can be cancelled online or by phone at (123) 456-7890."
+        ]
+      },
+      {
+        "tag": "reschedule",
+        "patterns": [
+          "How do I reschedule my appointment?",
+          "I need to change my booking",
+          "Can I reschedule my appointment?",
+          "Reschedule my appointment"
+        ],
+        "responses": [
+          "You can reschedule your appointment through our website or by calling us at (123) 456-7890.",
+          "To reschedule, please visit our rescheduling page or contact us at (123) 456-7890.",
+          "Appointments can be rescheduled online via our website or by phone at (123) 456-7890."
+        ]
+      },
+      {
+        "tag": "feedback",
+        "patterns": [
+          "I have feedback",
+          "Can I give some feedback?",
+          "I want to provide feedback",
+          "How can I give feedback?"
+        ],
+        "responses": [
+          "We appreciate your feedback! Please visit our feedback page or send us an email at feedback@example.com.",
+          "You can provide feedback on our website or email us at feedback@example.com.",
+          "Thank you for your feedback! Please visit our feedback page or contact us via email at feedback@example.com."
+        ]
+      },
+      {
+        "tag": "complaint",
+        "patterns": [
+          "I have a complaint",
+          "Can I file a complaint?",
+          "I want to complain",
+          "How can I submit a complaint?"
+        ],
+        "responses": [
+          "We are sorry to hear that. Please visit our complaint page or contact us at (123) 456-7890 to file a complaint.",
+          "You can submit a complaint through our website or by calling us at (123) 456-7890.",
+          "We apologize for any inconvenience. Please provide your complaint details on our complaint page or contact us at (123) 456-7890."
+        ]
+      },
+      {
+        "tag": "order_status",
+        "patterns": [
+          "What is the status of my order?",
+          "Can you check my order status?",
+          "Where is my order?",
+          "Order status"
+        ],
+        "responses": [
+          "Please provide your order ID so we can check the status for you.",
+          "To check your order status, visit our order status page or provide your order ID.",
+          "You can track your order status on our website or by providing your order ID here."
+        ]
+      }
+    ]
+  }
+  

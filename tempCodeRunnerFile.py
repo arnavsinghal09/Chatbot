@@ -1,1 +1,1 @@
-keras.model
+lemmatizer.lemmatize

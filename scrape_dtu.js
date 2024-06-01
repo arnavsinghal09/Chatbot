@@ -7,7 +7,7 @@ const fs = require('fs');
   const page = await browser.newPage();
 
   // Navigate to the website
-  await page.goto('https://www.dtu.ac.in/');
+  await page.goto('https://en.wikipedia.org/wiki/Potato');
 
   // Example: Extract the page title
   const pageTitle = await page.title();

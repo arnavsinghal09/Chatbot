@@ -1,44 +1,51 @@
+
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 (async () => {
   // Launch a new browser instance
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
 
   // Navigate to the website
-  await page.goto('https://en.wikipedia.org/wiki/Potato');
+  await page.goto('https://www.dtu.ac.in/');
 
-  // Example: Extract the page title
-  const pageTitle = await page.title();
-  console.log('Page Title:', pageTitle);
+  // Increase the timeout and wait for a specific element to load
+  const selector = '.colr'; // Adjust the selector
+  const timeout = 10000; // Set the timeout to 10 seconds
 
-  // Example: Extract all the links (anchor tags)
-  const links = await page.evaluate(() => {
-    const anchorTags = Array.from(document.querySelectorAll('a'));
-    return anchorTags.map(anchor => anchor.href);
+  try {
+    await page.waitForSelector(selector, { timeout });
+  } catch (error) {
+    console.error(`Error: ${error.message}`);
+    await browser.close();
+    return;
+  }
+
+  // Extract main text content
+  const mainText = await page.evaluate(() => {
+    const content = document.querySelector('.colr'); // Adjust the selector to match the main content
+    return content ? content.textContent.trim() : '';
   });
-  console.log('Links:', links);
+  console.log('Main Text:', mainText);
 
-  // Example: Extract specific elements by class or id
-  // Replace '.classname' with the actual class name or '#id' with the actual id
+  // Extract specific elements by class or id
   const classTexts = await page.evaluate(() => {
-    const classElements = Array.from(document.querySelectorAll('.classname'));
-    return classElements.map(element => element.textContent);
+    const classElements = Array.from(document.querySelectorAll('.colr')); // Adjust selector as needed
+    return classElements.map(element => element.textContent.trim());
   });
   console.log('Class Element Texts:', classTexts);
 
   // Extract specific elements by tag
   const h1Texts = await page.evaluate(() => {
     const h1Elements = Array.from(document.querySelectorAll('h1'));
-    return h1Elements.map(element => element.textContent);
+    return h1Elements.map(element => element.textContent.trim());
   });
   console.log('H1 Texts:', h1Texts);
 
   // Save data to JSON file
   const data = {
-    pageTitle,
-    links,
+    mainText,
     classTexts,
     h1Texts
   };

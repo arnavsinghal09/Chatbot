@@ -66,12 +66,14 @@
               "How can I apply for a course?",
               "What is the admission process?",
               "Admission details for B.Tech",
-              "Ph.D. admissions"
+              "Ph.D. admissions",
+              "M.Tech admissions"
           ],
           "responses": [
-              "You can find admission details on the 'Admission' section of our website. Here's a quick link: [Admission Portal Link]",
-              "For B.Tech admissions, please visit: [B.Tech Admission Link]",
-              "Ph.D. admission information is available here: [Ph.D. Admission Link]"
+              "You can find admission details on the 'Admission' section of our website. Here's a quick link: https://saarthi.dtu.ac.in/admissions2024_25/",
+              "For B.Tech admissions, please visit: https://dtu.ac.in/Web/dtujac.php",
+              "Ph.D. admission information is available here: https://saarthi.dtu.ac.in/admissions2024_25/phdSummer/sourceCode/",
+              "M.Tech admission information can found here: https://saarthi.dtu.ac.in/admissions2024_25/mtech/sourceCode/ "
           ]
       },
       {
@@ -80,11 +82,12 @@
               "Show me the academic calendar",
               "What is the academic schedule?",
               "UG academic calendar",
-              "PG academic calendar"
+              "PG academic calendar",
+              "Ph.D academic calendar"
           ],
           "responses": [
-              "The academic calendar for UG & PG programs can be found here: [Academic Calendar Link]",
-              "You can view the academic calendar for the current year here: [Academic Calendar Link]"
+              "The academic calendar for all UG PG & Ph.D programs can be found here: https://dtu.ac.in/Web/Academics/academic_calender.php",
+              "You can view the academic calendar for the current year here: https://dtu.ac.in/Web/Academics/academic_calender.php"
           ]
       },
       {
@@ -121,10 +124,10 @@
               "Details about the computer centre"
           ],
           "responses": [
-              "Information about DTU's facilities can be found in the 'Facilities' section of our website: [Facilities Link]",
-              "You can learn more about our library here: [Library Link]",
-              "Details about hostels are available here: [Hostels Link]",
-              "The computer centre information can be found here: [Computer Centre Link]"
+              "Information about DTU's facilities can be found in the 'Facilities' section of our website",
+              "You can learn more about our library here: https://library.dtu.ac.in/",
+              "Details about hostels are available here: http://hostels.dtu.ac.in/",
+              "The computer centre information can be found here: https://www.dtu.ac.in/Web/Facilities/ComputerCentre/about/"
           ]
       },
       {
@@ -135,8 +138,8 @@
               "Recent news"
           ],
           "responses": [
-              "You can find the latest news and updates in the 'Latest News' section: [Latest News Link]",
-              "Check out the most recent updates here: [Latest News Link]"
+              "You can find the latest news and updates in the 'Latest News' section, here's a quick link: https://www.dtu.ac.in/",
+              "Check out the most recent updates here in the 'Latest News' section: https://www.dtu.ac.in/ "
           ]
       },
       {
@@ -148,8 +151,8 @@
               "How to check exam results?"
           ],
           "responses": [
-              "You can find the results under the 'Examination & Result' section, which is listed on the right-hand side under 'Web Resources'.",
-              "To check your exam results, navigate to the 'Examination & Result' tab located in the 'Web Resources' section on the right."
+              "You can find the results under the 'Examination & Result' section, which is listed on the right-hand side under 'Web Resources', for your reference result can be found here: https://exam.dtu.ac.in/",
+              "To check your exam results, here's a quick link: https://exam.dtu.ac.in/"
           ]
       },
       {

@@ -1,0 +1,283 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hello",
+              "Hi",
+              "Hey",
+              "Good morning",
+              "Good evening"
+          ],
+          "responses": [
+              "Hello! How can I assist you today?",
+              "Hi there! What can I do for you?",
+              "Hey! How can I help?"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Goodbye",
+              "See you later",
+              "Bye",
+              "Have a nice day",
+              "Catch you later"
+          ],
+          "responses": [
+              "Goodbye! Have a great day!",
+              "See you later!",
+              "Bye! Take care!"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thanks",
+              "Thank you",
+              "I appreciate it",
+              "Thanks a lot"
+          ],
+          "responses": [
+              "You're welcome!",
+              "No problem!",
+              "My pleasure!",
+              "Anytime!"
+          ]
+      },
+      {
+          "tag": "help",
+          "patterns": [
+              "Can you help me?",
+              "I need some assistance",
+              "Can you assist me?",
+              "I need help"
+          ],
+          "responses": [
+              "Of course! What do you need help with?",
+              "Sure, I'm here to assist you. What do you need?",
+              "I'd be happy to help. What seems to be the problem?"
+          ]
+      },
+      {
+          "tag": "admission_info",
+          "patterns": [
+              "Tell me about admissions",
+              "How can I apply for a course?",
+              "What is the admission process?",
+              "Admission details for B.Tech",
+              "Ph.D. admissions",
+              "M.Tech admissions"
+          ],
+          "responses": [
+              "You can find admission details on the 'Admission' section of our website. Here's a quick link: https://saarthi.dtu.ac.in/admissions2024_25/",
+              "For B.Tech admissions, please visit: https://dtu.ac.in/Web/dtujac.php",
+              "Ph.D. admission information is available here: https://saarthi.dtu.ac.in/admissions2024_25/phdSummer/sourceCode/",
+              "M.Tech admission information can found here: https://saarthi.dtu.ac.in/admissions2024_25/mtech/sourceCode/ "
+          ]
+      },
+      {
+          "tag": "academic_calendar",
+          "patterns": [
+              "Show me the academic calendar",
+              "What is the academic schedule?",
+              "UG academic calendar",
+              "PG academic calendar",
+              "Ph.D academic calendar"
+          ],
+          "responses": [
+              "The academic calendar for all UG PG & Ph.D programs can be found here: https://dtu.ac.in/Web/Academics/academic_calender.php",
+              "You can view the academic calendar for the current year here: https://dtu.ac.in/Web/Academics/academic_calender.php"
+          ]
+      },
+      {
+          "tag": "contact_info",
+          "patterns": [
+              "How can I contact the university?",
+              "University contact details",
+              "DTU phone number",
+              "DTU address"
+          ],
+          "responses": [
+              "You can contact DTU at 011-27871018 or visit us at Shahbad Daulatpur, Main Bawana Road, DL - 42, IN",
+              "Our contact details are as follows: Phone: 011-27871018, Fax: 011-27871023, Address: Delhi Technological University, Shahbad Daulatpur, Main Bawana Road, DL - 42, IN"
+          ]
+      },
+      {
+          "tag": "important_dates",
+          "patterns": [
+              "What are the important dates for exams?",
+              "Upcoming event dates",
+              "Important deadlines"
+          ],
+          "responses": [
+              "Important dates and deadlines can be found in the 'Important Updates' section: [Important Updates Link]",
+              "For exam schedules and other important dates, please refer to: [Academic Notices Link]"
+          ]
+      },
+      {
+          "tag": "facility_info",
+          "patterns": [
+              "Tell me about the library",
+              "What facilities does DTU offer?",
+              "Information about hostels",
+              "Details about the computer centre"
+          ],
+          "responses": [
+              "Information about DTU's facilities can be found in the 'Facilities' section of our website",
+              "You can learn more about our library here: https://library.dtu.ac.in/",
+              "Details about hostels are available here: http://hostels.dtu.ac.in/",
+              "The computer centre information can be found here: https://www.dtu.ac.in/Web/Facilities/ComputerCentre/about/"
+          ]
+      },
+      {
+          "tag": "latest_news",
+          "patterns": [
+              "What's new at DTU?",
+              "Latest updates",
+              "Recent news"
+          ],
+          "responses": [
+              "You can find the latest news and updates in the 'Latest News' section, here's a quick link: https://www.dtu.ac.in/",
+              "Check out the most recent updates here in the 'Latest News' section: https://www.dtu.ac.in/ "
+          ]
+      },
+      {
+          "tag": "locate_results",
+          "patterns": [
+              "Where can I find the results?",
+              "Show me the results section",
+              "Results page location",
+              "How to check exam results?"
+          ],
+          "responses": [
+              "You can find the results under the 'Examination & Result' section, which is listed on the right-hand side under 'Web Resources', for your reference result can be found here: https://exam.dtu.ac.in/",
+              "To check your exam results, here's a quick link: https://exam.dtu.ac.in/"
+          ]
+      },
+      {
+          "tag": "locate_admissions",
+          "patterns": [
+              "Where is the admissions section?",
+              "Show me where to apply",
+              "Admissions tab location",
+              "How to find admission information?"
+          ],
+          "responses": [
+              "You can find the 'Admission' section in the main navigation menu at the top of the page.",
+              "For admission information, click on the 'Admission' tab in the main menu at the top of the website."
+          ]
+      },
+      {
+          "tag": "locate_academic_calendar",
+          "patterns": [
+              "Where is the academic calendar?",
+              "Show me the academic calendar section",
+              "Academic calendar location",
+              "How to find the academic schedule?"
+          ],
+          "responses": [
+              "You can find the academic calendar in the 'Important Updates' section on the right-hand side of the homepage.",
+              "The academic calendar is listed under 'Important Updates' which is located on the right side of the homepage."
+          ]
+      },
+      {
+          "tag": "locate_notices",
+          "patterns": [
+              "Where are the notices?",
+              "Show me the notices section",
+              "Notices location",
+              "How to find recent notices?"
+          ],
+          "responses": [
+              "You can find recent notices in the 'Notices' section on the left-hand side of the homepage, under the main header image.",
+              "The 'Notices' section is located on the left side of the homepage, just below the main image."
+          ]
+      },
+      {
+          "tag": "locate_contact_info",
+          "patterns": [
+              "Where can I find contact information?",
+              "Show me the contact info section",
+              "Contact info location",
+              "How to find DTU contact details?"
+          ],
+          "responses": [
+              "You can find the contact information at the bottom of the homepage.",
+              "DTU's contact details are listed in the footer section at the bottom of the page."
+          ]
+      },
+      {
+          "tag": "notice_board",
+          "patterns": [
+              "What is on the notice board?",
+              "Show me the latest notices",
+              "What's new on the notice board?"
+          ],
+          "responses": [
+              "You can find the latest notices in the '1st Year Notices' section on the left side of the homepage.",
+              "The '1st Year Notices' section contains the latest updates and is located on the left side of the homepage."
+          ]
+      },
+      {
+          "tag": "job_openings",
+          "patterns": [
+              "Are there any job openings?",
+              "Current job vacancies",
+              "Job opportunities at DTU"
+          ],
+          "responses": [
+              "You can find current job openings in the 'Jobs' section on the left-hand side of the homepage.",
+              "The 'Jobs' section on the left side of the homepage lists all current job vacancies at DTU."
+          ]
+      },
+      {
+          "tag": "tender_notices",
+          "patterns": [
+              "Any tender notices?",
+              "Current tenders",
+              "Tender notices at DTU"
+          ],
+          "responses": [
+              "Tender notices can be found in the 'Tenders' section on the left-hand side of the homepage.",
+              "You can view all current tenders in the 'Tenders' section located on the left side of the homepage."
+          ]
+      },
+      {
+          "tag": "events",
+          "patterns": [
+              "Upcoming events",
+              "Events at DTU",
+              "What's happening at DTU?"
+          ],
+          "responses": [
+              "You can find upcoming events in the 'Forthcoming Events' section on the left-hand side of the homepage.",
+              "The 'Forthcoming Events' section lists all upcoming events and is located on the left side of the homepage."
+          ]
+      },
+      {
+          "tag": "student_welfare",
+          "patterns": [
+              "Information on student welfare",
+              "Student welfare services",
+              "What student welfare services are available?"
+          ],
+          "responses": [
+              "You can find information about student welfare services in the 'Student Welfare' section of the website.",
+              "The 'Student Welfare' section provides details on all available student services and can be found in the main navigation menu."
+          ]
+      },
+      {
+          "tag": "vision_mission",
+          "patterns": [
+              "What is the vision of DTU?",
+              "Mission statement of DTU",
+              "DTU vision and mission"
+          ],
+          "responses": [
+              "DTU's vision and mission statements can be found in the 'About Us' section of the website.",
+              "You can read about DTU's vision and mission here: [About Us Link]"
+          ]
+      }
+  ]
+}

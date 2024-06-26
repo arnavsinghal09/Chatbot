@@ -1,0 +1,228 @@
+intents:
+- greeting
+- goodbye
+- thanks
+- help
+- admission_info
+- admission_info_btech
+- admission_info_mtech
+- admission_info_phd
+- exam_info
+- academic_calendar
+- contact_info
+- important_dates
+- facility_info
+- facility_info_library
+- facility_info_hostel
+- facility_info_computer_center
+- latest_news
+- locate_results
+- locate_notices
+- job_openings
+- tender_notices
+- events
+- student_welfare
+- vision_mission
+responses:
+  utter_academic_calendar:
+  - text: 'Sure, here''s the academic calendar link: [link].'
+  - text: 'You can find the academic calendar here: [link].'
+  - text: 'The academic calendar for UG, PG, and Ph.D programs is available at: [link].'
+  - text: 'Here''s where you can view the academic calendar: [link].'
+  - text: 'Check out the academic calendar here: [link].'
+  - text: 'The academic calendar link is: [link].'
+  - text: 'You can access the academic calendar at: [link].'
+  utter_admission_info:
+  - text: 'You can find admission details on the ''Admission'' section of our website.
+      Here''s a quick link: https://saarthi.dtu.ac.in/admissions2024_25/'
+  - text: 'For admission information, please visit the ''Admission'' section of our
+      website: https://saarthi.dtu.ac.in/admissions2024_25/'
+  - text: 'All admission-related information is available in the ''Admission'' section
+      of our website: https://saarthi.dtu.ac.in/admissions2024_25/'
+  - text: 'Visit the ''Admission'' section on our website for detailed information:
+      https://saarthi.dtu.ac.in/admissions2024_25/'
+  - text: 'You can apply for courses and find all the details in the ''Admission''
+      section here: https://saarthi.dtu.ac.in/admissions2024_25/'
+  - text: 'Check the ''Admission'' section of our website for comprehensive admission
+      details: https://saarthi.dtu.ac.in/admissions2024_25/'
+  - text: 'For detailed admission guidelines, please visit: https://saarthi.dtu.ac.in/admissions2024_25/'
+  utter_admission_info_btech:
+  - text: 'For B.Tech admissions, please visit: https://dtu.ac.in/Web/dtujac.php'
+  - text: 'You can find all the information about B.Tech admissions here: https://dtu.ac.in/Web/dtujac.php'
+  - text: 'For detailed information on B.Tech admissions, visit: https://dtu.ac.in/Web/dtujac.php'
+  - text: 'B.Tech admission details are available here: https://dtu.ac.in/Web/dtujac.php'
+  - text: 'Check out the B.Tech admission information at: https://dtu.ac.in/Web/dtujac.php'
+  - text: 'For guidelines on B.Tech admissions, visit: https://dtu.ac.in/Web/dtujac.php'
+  - text: 'To apply for B.Tech, see the details here: https://dtu.ac.in/Web/dtujac.php'
+  utter_admission_info_mtech:
+  - text: 'For M.Tech admissions, please visit: https://dtu.ac.in/Web/Academics/mtech_admission/'
+  - text: 'You can find all the information about M.Tech admissions here: https://dtu.ac.in/Web/Academics/mtech_admission/'
+  - text: 'For detailed information on M.Tech admissions, visit: https://dtu.ac.in/Web/Academics/mtech_admission/'
+  - text: 'M.Tech admission details are available here: https://dtu.ac.in/Web/Academics/mtech_admission/'
+  - text: 'Check out the M.Tech admission information at: https://dtu.ac.in/Web/Academics/mtech_admission/'
+  - text: 'For guidelines on M.Tech admissions, visit: https://dtu.ac.in/Web/Academics/mtech_admission/'
+  - text: 'To apply for M.Tech, see the details here: https://dtu.ac.in/Web/Academics/mtech_admission/'
+  utter_admission_info_phd:
+  - text: 'For Ph.D. admissions, please visit: https://dtu.ac.in/Web/Academics/phd_admission/'
+  - text: 'You can find all the information about Ph.D. admissions here: https://dtu.ac.in/Web/Academics/phd_admission/'
+  - text: 'For detailed information on Ph.D. admissions, visit: https://dtu.ac.in/Web/Academics/phd_admission/'
+  - text: 'Ph.D. admission details are available here: https://dtu.ac.in/Web/Academics/phd_admission/'
+  - text: 'Check out the Ph.D. admission information at: https://dtu.ac.in/Web/Academics/phd_admission/'
+  - text: 'For guidelines on Ph.D. admissions, visit: https://dtu.ac.in/Web/Academics/phd_admission/'
+  - text: 'To apply for Ph.D., see the details here: https://dtu.ac.in/Web/Academics/phd_admission/'
+  utter_contact_info:
+  - text: You can contact DTU at 011-27871018 or visit us at Shahbad Daulatpur, Main
+      Bawana Road, DL - 42, IN.
+  - text: 'Our contact details are as follows: Phone: 011-27871018, Fax: 011-27871023,
+      Address: Delhi Technological University, Shahbad Daulatpur, Main Bawana Road,
+      DL - 42, IN.'
+  - text: The university's contact number is 011-27871018, and our address is Shahbad
+      Daulatpur, Main Bawana Road, DL - 42, IN.
+  - text: To reach DTU, dial 011-27871018 or visit us at Shahbad Daulatpur, Main Bawana
+      Road, DL - 42, IN.
+  - text: DTU can be reached at 011-27871018, and our address is Shahbad Daulatpur,
+      Main Bawana Road, DL - 42, IN.
+  - text: Feel free to contact DTU at 011-27871018 or visit our campus at Shahbad
+      Daulatpur, Main Bawana Road, DL - 42, IN.
+  - text: Need to get in touch with DTU? Call us at 011-27871018 or visit our campus
+      at Shahbad Daulatpur, Main Bawana Road, DL - 42, IN.
+  utter_events:
+  - text: You can find upcoming events in the 'Forthcoming Events' section on the
+      left-hand side of the homepage.
+  - text: The 'Forthcoming Events' section lists all upcoming events and is located
+      on the left side of the homepage.
+  utter_exam_info:
+  - text: 'You can find detailed information about the entrance exams on our website.
+      Please visit: https://dtu.ac.in/Web/Academics/entrance_exams/'
+  - text: 'For information about the required entrance exams, please visit: https://dtu.ac.in/Web/Academics/entrance_exams/'
+  - text: 'All details about entrance exams can be found here: https://dtu.ac.in/Web/Academics/entrance_exams/'
+  - text: 'Check out the entrance exam details on our website: https://dtu.ac.in/Web/Academics/entrance_exams/'
+  - text: 'Visit this link for information on the entrance exams: https://dtu.ac.in/Web/Academics/entrance_exams/'
+  - text: 'Entrance exam information is available here: https://dtu.ac.in/Web/Academics/entrance_exams/'
+  - text: 'For a list of required entrance exams, please visit: https://dtu.ac.in/Web/Academics/entrance_exams/'
+  utter_facility_info:
+  - text: Information about DTU's facilities can be found in the 'Facilities' section
+      of our website.
+  - text: You can explore DTU's amenities in detail on our website's 'Facilities'
+      section.
+  - text: For details regarding DTU's facilities, please visit the 'Facilities' section
+      on our website.
+  - text: To learn about DTU's amenities, visit the 'Facilities' section of our website.
+  - text: Details about DTU's facilities are available in the 'Facilities' section
+      on our website.
+  utter_facility_info_computer_center:
+  - text: 'The computer centre information can be found here: https://www.dtu.ac.in/Web/Facilities/ComputerCentre/about/'
+  utter_facility_info_hostel:
+  - text: 'Details about hostels are available here: http://hostels.dtu.ac.in/'
+  - text: 'Visit this link to explore DTU''s hostels: http://hostels.dtu.ac.in/'
+  - text: 'For detailed information about DTU''s hostels, please visit: http://hostels.dtu.ac.in/'
+  - text: 'Explore our hostels'' offerings at: http://hostels.dtu.ac.in/'
+  - text: 'Find out more about DTU''s hostels by visiting: http://hostels.dtu.ac.in/'
+  utter_facility_info_library:
+  - text: 'You can learn more about our library here: https://library.dtu.ac.in/'
+  - text: 'Visit this link to explore DTU''s library: https://library.dtu.ac.in/'
+  - text: 'For detailed information about DTU''s library, please visit: https://library.dtu.ac.in/'
+  - text: 'Explore our library''s offerings at: https://library.dtu.ac.in/'
+  - text: 'Find out more about DTU''s library by visiting: https://library.dtu.ac.in/'
+  utter_goodbye:
+  - text: Goodbye! Have a great day!
+  - text: See you later!
+  - text: Bye! Take care!
+  - text: Farewell! Have a nice day!
+  - text: Catch you later! Stay safe!
+  - text: Talk to you soon! Bye!
+  - text: Goodbye! See you next time!
+  utter_greeting:
+  - text: Hello! How can I assist you today?
+  - text: Hi there! What can I do for you?
+  - text: Hey! How can I help?
+  - text: Good morning! How can I be of service?
+  - text: Good afternoon! What can I assist you with?
+  - text: Good evening! How may I help you?
+  - text: Howdy! What can I do for you today?
+  - text: Greetings! How can I assist you?
+  - text: Hi! How may I assist you today?
+  - text: Hey there! What can I do for you?
+  - text: Hello! How can I support you today?
+  - text: Hi there! How can I help you today?
+  - text: Hey! What assistance do you need?
+  - text: Good day! How can I assist you?
+  - text: Hello! What can I do for you?
+  - text: Hi there! How can I be of help?
+  - text: Hey! How can I be of assistance?
+  - text: Good morning! How may I help you?
+  - text: Good afternoon! How can I assist you?
+  - text: Good evening! What can I do for you today?
+  - text: "Hi! How\xE2\u20AC\u2122s your day going?"
+  - text: Hey! Need any help?
+  - text: Hello! How can I make your day better?
+  - text: Greetings! How can I assist you today?
+  - text: Hi! Anything I can help with?
+  utter_help:
+  - text: Of course! What do you need help with?
+  - text: Sure, I'm here to assist you. What do you need?
+  - text: I'd be happy to help. What seems to be the problem?
+  - text: Absolutely! What can I assist you with?
+  - text: I'm here to help. What do you need assistance with?
+  - text: Sure thing! How can I support you?
+  - text: I'm glad to help. What do you need?
+  utter_important_dates:
+  - text: 'Important dates and deadlines can be found in the ''Important Updates''
+      section: [Important Updates Link].'
+  - text: 'For exam schedules and other important dates, please refer to: [Academic
+      Notices Link].'
+  - text: 'You can check the crucial dates for exams and events in the ''Important
+      Updates'' section: [Important Updates Link].'
+  - text: 'Find the exam schedules and event dates in the ''Academic Notices'' section:
+      [Academic Notices Link].'
+  - text: 'To stay informed about important dates, visit the ''Important Updates''
+      section: [Important Updates Link].'
+  - text: 'Refer to the ''Academic Notices'' section for details on exam schedules
+      and event dates: [Academic Notices Link].'
+  - text: 'Check out the ''Important Updates'' section for exam dates and deadlines:
+      [Important Updates Link].'
+  utter_job_openings:
+  - text: You can find current job openings in the 'Jobs' section on the left-hand
+      side of the homepage.
+  - text: The 'Jobs' section on the left side of the homepage lists all current job
+      vacancies at DTU.
+  utter_latest_news:
+  - text: 'You can find the latest news and updates in the ''Latest News'' section,
+      here''s a quick link: https://www.dtu.ac.in/'
+  - text: 'Check out the most recent updates here in the ''Latest News'' section:
+      https://www.dtu.ac.in/'
+  utter_locate_notices:
+  - text: You can find recent notices in the 'Notices' section on the left-hand side
+      of the homepage, under the main header image.
+  - text: The 'Notices' section is located on the left side of the homepage, just
+      below the main image.
+  utter_locate_results:
+  - text: 'You can find the results under the ''Examination & Result'' section, which
+      is listed on the right-hand side under ''Web Resources'', for your reference
+      result can be found here: https://exam.dtu.ac.in/'
+  - text: 'To check your exam results, here''s a quick link: https://exam.dtu.ac.in/'
+  utter_student_welfare:
+  - text: You can find information about student welfare services in the 'Student
+      Welfare' section of the website.
+  - text: The 'Student Welfare' section provides details on all available student
+      services and can be found in the main navigation menu.
+  utter_tender_notices:
+  - text: Tender notices can be found in the 'Tenders' section on the left-hand side
+      of the homepage.
+  - text: You can view all current tenders in the 'Tenders' section located on the
+      left side of the homepage.
+  utter_thanks:
+  - text: You're welcome!
+  - text: No problem!
+  - text: My pleasure!
+  - text: Anytime!
+  - text: Glad I could help!
+  - text: Happy to assist!
+  - text: Don't mention it!
+  utter_vision_mission:
+  - text: DTU's vision and mission statements can be found in the 'About Us' section
+      of the website.
+  - text: 'You can read about DTU''s vision and mission here: [About Us Link]'
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60

@@ -1,0 +1,97 @@
+stories:
+- steps:
+  - intent: greeting
+  - action: utter_greeting
+  story: greeting path
+- steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  story: goodbye path
+- steps:
+  - intent: thanks
+  - action: utter_thanks
+  story: thanks path
+- steps:
+  - intent: help
+  - action: utter_help
+  story: help path
+- steps:
+  - intent: admission_info
+  - action: utter_admission_info
+  story: admission_info path
+- steps:
+  - intent: admission_info_btech
+  - action: utter_admission_info_btech
+  story: admission_info_btech path
+- steps:
+  - intent: admission_info_mtech
+  - action: utter_admission_info_mtech
+  story: admission_info_mtech path
+- steps:
+  - intent: admission_info_phd
+  - action: utter_admission_info_phd
+  story: admission_info_phd path
+- steps:
+  - intent: exam_info
+  - action: utter_exam_info
+  story: exam_info path
+- steps:
+  - intent: academic_calendar
+  - action: utter_academic_calendar
+  story: academic_calendar path
+- steps:
+  - intent: contact_info
+  - action: utter_contact_info
+  story: contact_info path
+- steps:
+  - intent: important_dates
+  - action: utter_important_dates
+  story: important_dates path
+- steps:
+  - intent: facility_info
+  - action: utter_facility_info
+  story: facility_info path
+- steps:
+  - intent: facility_info_library
+  - action: utter_facility_info_library
+  story: facility_info_library path
+- steps:
+  - intent: facility_info_hostel
+  - action: utter_facility_info_hostel
+  story: facility_info_hostel path
+- steps:
+  - intent: facility_info_computer_center
+  - action: utter_facility_info_computer_center
+  story: facility_info_computer_center path
+- steps:
+  - intent: latest_news
+  - action: utter_latest_news
+  story: latest_news path
+- steps:
+  - intent: locate_results
+  - action: utter_locate_results
+  story: locate_results path
+- steps:
+  - intent: locate_notices
+  - action: utter_locate_notices
+  story: locate_notices path
+- steps:
+  - intent: job_openings
+  - action: utter_job_openings
+  story: job_openings path
+- steps:
+  - intent: tender_notices
+  - action: utter_tender_notices
+  story: tender_notices path
+- steps:
+  - intent: events
+  - action: utter_events
+  story: events path
+- steps:
+  - intent: student_welfare
+  - action: utter_student_welfare
+  story: student_welfare path
+- steps:
+  - intent: vision_mission
+  - action: utter_vision_mission
+  story: vision_mission path

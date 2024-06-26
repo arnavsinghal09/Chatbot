@@ -1,0 +1,695 @@
+{
+  "intents": [
+    
+            {
+                "tag": "greeting",
+                "patterns": [
+                    "Hello", 
+                    "Hi",
+                    "Hey",
+                    "Good morning",
+                    "Good afternoon", 
+                    "Good evening", 
+                    "Howdy", 
+                    "Greetings", 
+                    "Hi there", 
+                    "Hey there", 
+                    "What's up?", 
+                    "How's it going?", 
+                    "How are you?", 
+                    "Nice to see you", 
+                    "Long time no see", 
+                    "Good to see you", 
+                    "What's new?", 
+                    "How have you been?", 
+                    "How do you do?", 
+                    "What's happening?",
+                    "What's good?",
+                    "Yo!",
+                    "Sup?",
+                    "How are you doing today?",
+                    "How are things?"
+                ],
+                "responses": [
+                    "Hello! How can I assist you today?", 
+                    "Hi there! What can I do for you?", 
+                    "Hey! How can I help?", 
+                    "Good morning! How can I be of service?", 
+                    "Good afternoon! What can I assist you with?",
+                    "Good evening! How may I help you?", 
+                    "Howdy! What can I do for you today?", 
+                    "Greetings! How can I assist you?", 
+                    "Hi! How may I assist you today?", 
+                    "Hey there! What can I do for you?", 
+                    "Hello! How can I support you today?", 
+                    "Hi there! How can I help you today?", 
+                    "Hey! What assistance do you need?", 
+                    "Good day! How can I assist you?", 
+                    "Hello! What can I do for you?", 
+                    "Hi there! How can I be of help?", 
+                    "Hey! How can I be of assistance?", 
+                    "Good morning! How may I help you?", 
+                    "Good afternoon! How can I assist you?", 
+                    "Good evening! What can I do for you today?",
+                    "Hi! How’s your day going?",
+                    "Hey! Need any help?",
+                    "Hello! How can I make your day better?",
+                    "Greetings! How can I assist you today?",
+                    "Hi! Anything I can help with?"
+                ]
+            },
+            {
+                "tag": "goodbye",
+                "patterns": [
+                    "Goodbye",
+                    "See you later",
+                    "Bye",
+                    "Have a nice day",
+                    "Catch you later",
+                    "Talk to you soon",
+                    "Farewell",
+                    "See you",
+                    "Take care",
+                    "Bye bye",
+                    "See you next time",
+                    "Have a good one",
+                    "Later",
+                    "Peace out",
+                    "Adios",
+                    "Catch you soon",
+                    "Talk later",
+                    "Until next time",
+                    "Have a great day",
+                    "Good night"
+                ],
+                "responses": [
+                    "Goodbye! Have a great day!",
+                    "See you later!",
+                    "Bye! Take care!",
+                    "Farewell! Have a nice day!",
+                    "Catch you later! Stay safe!",
+                    "Talk to you soon! Bye!",
+                    "Goodbye! See you next time!"
+                ]
+            },
+            {
+                "tag": "thanks",
+                "patterns": [
+                    "Thanks",
+                    "Thank you",
+                    "I appreciate it",
+                    "Thanks a lot",
+                    "Many thanks",
+                    "Thanks for your help",
+                    "Thank you so much",
+                    "Thanks a bunch",
+                    "Thanks for everything",
+                    "I’m grateful",
+                    "Much appreciated",
+                    "Thanks for the assistance",
+                    "Thank you very much",
+                    "I appreciate your help",
+                    "Thanks for helping",
+                    "I can’t thank you enough",
+                    "Thank you, I appreciate it",
+                    "Thanks a ton",
+                    "You’re a lifesaver",
+                    "Thanks for your support"
+                ],
+                "responses": [
+                    "You're welcome!",
+                    "No problem!",
+                    "My pleasure!",
+                    "Anytime!",
+                    "Glad I could help!",
+                    "Happy to assist!",
+                    "Don't mention it!"
+                ]
+            },
+            {
+                "tag": "help",
+                "patterns": [
+                    "Can you help me?",
+                    "I need some assistance",
+                    "Can you assist me?",
+                    "I need help",
+                    "I need support",
+                    "Can you provide some help?",
+                    "I require assistance",
+                    "Can you give me a hand?",
+                    "Can you aid me?",
+                    "I need some help, please",
+                    "Could you help me?",
+                    "Could you assist me?",
+                    "I need some guidance",
+                    "I need a bit of help",
+                    "Could you lend me a hand?",
+                    "I’m looking for some help",
+                    "Can you offer assistance?",
+                    "May I get some help?",
+                    "I need some support, please",
+                    "Can you provide assistance?"
+                ],
+                "responses": [
+                    "Of course! What do you need help with?",
+                    "Sure, I'm here to assist you. What do you need?",
+                    "I'd be happy to help. What seems to be the problem?",
+                    "Absolutely! What can I assist you with?",
+                    "I'm here to help. What do you need assistance with?",
+                    "Sure thing! How can I support you?",
+                    "I'm glad to help. What do you need?"
+                ]
+            },
+          
+            {
+              "tag":"admission_info_btech",
+              "patterns":[
+                  "Details about B.Tech admissions", 
+                  "B.Tech admission information", 
+                  "Information on B.Tech admissions", 
+                  "B.Tech enrollment details", 
+                  "Admission info for B.Tech", 
+                  "B.Tech application details", 
+                  "B.Tech entry requirements", 
+                  "Details for B.Tech applications", 
+                  "B.Tech admission process", 
+                  "How to apply for B.Tech", 
+                  "B.Tech application information", 
+                  "B.Tech admission guidelines", 
+                  "B.Tech enrollment information", 
+                  "B.Tech application procedure", 
+                  "B.Tech admissions overview",
+                  "How to get into B.Tech",
+                  "B.Tech admission steps",
+                  "B.Tech course application",
+                  "Process for B.Tech admissions",
+                  "Apply for B.Tech program"
+              ],
+              "responses":[
+                  "For B.Tech admissions, please visit: https://dtu.ac.in/Web/dtujac.php",
+                  "You can find all the information about B.Tech admissions here: https://dtu.ac.in/Web/dtujac.php",
+                  "For detailed information on B.Tech admissions, visit: https://dtu.ac.in/Web/dtujac.php",
+                  "B.Tech admission details are available here: https://dtu.ac.in/Web/dtujac.php",
+                  "Check out the B.Tech admission information at: https://dtu.ac.in/Web/dtujac.php",
+                  "For guidelines on B.Tech admissions, visit: https://dtu.ac.in/Web/dtujac.php",
+                  "To apply for B.Tech, see the details here: https://dtu.ac.in/Web/dtujac.php"
+              ]
+            },
+            {
+              "tag":"admission_info_mtech",
+              "patterns":[
+                  "Details about M.Tech admissions", 
+                  "M.Tech admission information", 
+                  "Information on M.Tech admissions", 
+                  "M.Tech enrollment details", 
+                  "Admission info for M.Tech", 
+                  "M.Tech application details", 
+                  "M.Tech entry requirements", 
+                  "Details for M.Tech applications", 
+                  "M.Tech admission process", 
+                  "How to apply for M.Tech", 
+                  "M.Tech application information", 
+                  "M.Tech admission guidelines", 
+                  "M.Tech enrollment information", 
+                  "M.Tech application procedure", 
+                  "M.Tech admissions overview",
+                  "How to get into M.Tech",
+                  "M.Tech admission steps",
+                  "M.Tech course application",
+                  "Process for M.Tech admissions",
+                  "Apply for M.Tech program"
+              ],
+              "responses":[
+                  "For M.Tech admissions, please visit: https://dtu.ac.in/Web/Academics/mtech_admission/",
+                  "You can find all the information about M.Tech admissions here: https://dtu.ac.in/Web/Academics/mtech_admission/",
+                  "For detailed information on M.Tech admissions, visit: https://dtu.ac.in/Web/Academics/mtech_admission/",
+                  "M.Tech admission details are available here: https://dtu.ac.in/Web/Academics/mtech_admission/",
+                  "Check out the M.Tech admission information at: https://dtu.ac.in/Web/Academics/mtech_admission/",
+                  "For guidelines on M.Tech admissions, visit: https://dtu.ac.in/Web/Academics/mtech_admission/",
+                  "To apply for M.Tech, see the details here: https://dtu.ac.in/Web/Academics/mtech_admission/"
+              ]
+            },
+            {
+              "tag":"admission_info_phd",
+              "patterns":[
+                  "Details about Ph.D. admissions", 
+                  "Ph.D. admission information", 
+                  "Information on Ph.D. admissions", 
+                  "Ph.D. enrollment details", 
+                  "Admission info for Ph.D.", 
+                  "Ph.D. application details", 
+                  "Ph.D. entry requirements", 
+                  "Details for Ph.D. applications", 
+                  "Ph.D. admission process", 
+                  "How to apply for Ph.D.", 
+                  "Ph.D. application information", 
+                  "Ph.D. admission guidelines", 
+                  "Ph.D. enrollment information", 
+                  "Ph.D. application procedure", 
+                  "Ph.D. admissions overview",
+                  "How to get into Ph.D.",
+                  "Ph.D. admission steps",
+                  "Ph.D. course application",
+                  "Process for Ph.D. admissions",
+                  "Apply for Ph.D. program"
+              ],
+              "responses":[
+                  "For Ph.D. admissions, please visit: https://dtu.ac.in/Web/Academics/phd_admission/",
+                  "You can find all the information about Ph.D. admissions here: https://dtu.ac.in/Web/Academics/phd_admission/",
+                  "For detailed information on Ph.D. admissions, visit: https://dtu.ac.in/Web/Academics/phd_admission/",
+                  "Ph.D. admission details are available here: https://dtu.ac.in/Web/Academics/phd_admission/",
+                  "Check out the Ph.D. admission information at: https://dtu.ac.in/Web/Academics/phd_admission/",
+                  "For guidelines on Ph.D. admissions, visit: https://dtu.ac.in/Web/Academics/phd_admission/",
+                  "To apply for Ph.D., see the details here: https://dtu.ac.in/Web/Academics/phd_admission/"
+              ]
+            },
+            {
+                "tag": "exam_info",
+                "patterns": [
+                    "Tell me about the entrance exams",
+                    "Which entrance exams are required?",
+                    "What exams do I need to take?",
+                    "Entrance exam details",
+                    "Exam information",
+                    "Required exams for admission",
+                    "What entrance tests are needed?",
+                    "Information on entrance exams",
+                    "Details about entrance tests",
+                    "Admission test details",
+                    "Entrance test information",
+                    "What are the entrance exams?",
+                    "Which tests are needed for admission?",
+                    "Exam requirements",
+                    "Details on entrance exams",
+                    "Admission test requirements",
+                    "Required entrance exams",
+                    "Which exams are required?",
+                    "Exam details for admissions",
+                    "What entrance exams are there?"
+                ],
+                "responses": [
+                    "You can find detailed information about the entrance exams on our website. Please visit: https://dtu.ac.in/Web/Academics/entrance_exams/",
+                    "For information about the required entrance exams, please visit: https://dtu.ac.in/Web/Academics/entrance_exams/",
+                    "All details about entrance exams can be found here: https://dtu.ac.in/Web/Academics/entrance_exams/",
+                    "Check out the entrance exam details on our website: https://dtu.ac.in/Web/Academics/entrance_exams/",
+                    "Visit this link for information on the entrance exams: https://dtu.ac.in/Web/Academics/entrance_exams/",
+                    "Entrance exam information is available here: https://dtu.ac.in/Web/Academics/entrance_exams/",
+                    "For a list of required entrance exams, please visit: https://dtu.ac.in/Web/Academics/entrance_exams/"
+                ]
+            },
+            {
+                "tag": "academic_calendar",
+                "patterns": [
+                    "Can you display the academic calendar?",
+                    "What's on the academic agenda?",
+                    "Could you show me the UG academic schedule?",
+                    "How about the PG academic timetable?",
+                    "Where can I find the Ph.D academic calendar?",
+                    "Please reveal the academic timetable.",
+                    "Any info on the academic calendar?",
+                    "What's the academic plan?",
+                    "Show me the academic calendar, please.",
+                    "Any updates on the academic calendar?",
+                    "Academic calendar, please?",
+                    "Seeking the academic schedule.",
+                    "Looking for the academic calendar details.",
+                    "What's outlined in the academic calendar?",
+                    "Any insights into the academic calendar?",
+                    "Information about the academic schedule, please.",
+                    "Academic timetable inquiry.",
+                    "Could you provide the academic calendar link?",
+                    "Seeking details on the academic calendar.",
+                    "What's in store regarding the academic calendar?"
+                ],
+                "responses": [
+                    "Sure, here's the academic calendar link: [link].",
+                    "You can find the academic calendar here: [link].",
+                    "The academic calendar for UG, PG, and Ph.D programs is available at: [link].",
+                    "Here's where you can view the academic calendar: [link].",
+                    "Check out the academic calendar here: [link].",
+                    "The academic calendar link is: [link].",
+                    "You can access the academic calendar at: [link]."
+                ]
+            },
+            {
+                "tag": "contact_info",
+                "patterns": [
+                    "How do I get in touch with the university?",
+                    "Can you provide the university's contact information?",
+                    "What are the contact details for DTU?",
+                    "Where can I find the phone number for DTU?",
+                    "Seeking the address of DTU.",
+                    "How can I reach out to DTU?",
+                    "University contact info, please?",
+                    "What's the best way to contact DTU?",
+                    "DTU contact details inquiry.",
+                    "Looking for DTU's phone number.",
+                    "What's the address for DTU?",
+                    "University contact information needed.",
+                    "How can I connect with DTU?",
+                    "Seeking the contact info for DTU.",
+                    "Can you provide DTU's address and phone number?",
+                    "What's the best way to reach DTU?",
+                    "Need to get in touch with DTU.",
+                    "How can I contact DTU administration?",
+                    "Seeking contact details for Delhi Technological University.",
+                    "DTU communication details inquiry."
+                ],
+                "responses": [
+                    "You can contact DTU at 011-27871018 or visit us at Shahbad Daulatpur, Main Bawana Road, DL - 42, IN.",
+                    "Our contact details are as follows: Phone: 011-27871018, Fax: 011-27871023, Address: Delhi Technological University, Shahbad Daulatpur, Main Bawana Road, DL - 42, IN.",
+                    "The university's contact number is 011-27871018, and our address is Shahbad Daulatpur, Main Bawana Road, DL - 42, IN.",
+                    "To reach DTU, dial 011-27871018 or visit us at Shahbad Daulatpur, Main Bawana Road, DL - 42, IN.",
+                    "DTU can be reached at 011-27871018, and our address is Shahbad Daulatpur, Main Bawana Road, DL - 42, IN.",
+                    "Feel free to contact DTU at 011-27871018 or visit our campus at Shahbad Daulatpur, Main Bawana Road, DL - 42, IN.",
+                    "Need to get in touch with DTU? Call us at 011-27871018 or visit our campus at Shahbad Daulatpur, Main Bawana Road, DL - 42, IN."
+                ]
+            },
+            
+            {
+                "tag": "facility_info",
+                "patterns": [
+                    "What facilities does DTU offer?",
+                    "Can you tell me about DTU's amenities?",
+                    "What are the services provided by DTU?",
+                    "I'm interested in learning about DTU's facilities.",
+                    "Seeking information on DTU's resources.",
+                    "What are the available amenities at DTU?",
+                    "Could you provide details on DTU's infrastructure?",
+                    "Interested in knowing about DTU's facilities.",
+                    "What kind of facilities are available at DTU?",
+                    "Tell me about the amenities at DTU.",
+                    "I want to know more about DTU's facilities.",
+                    "What facilities can I find at DTU?",
+                    "Seeking information on the services offered by DTU.",
+                    "What are the features of DTU's campus?",
+                    "Could you describe DTU's facilities?",
+                    "I'm curious about the facilities provided by DTU.",
+                    "What does DTU offer in terms of facilities?",
+                    "Can you elaborate on DTU's infrastructure?",
+                    "Looking for information on DTU's amenities.",
+                    "Tell me about the resources available at DTU."
+                ],
+                "responses": [
+                    "Information about DTU's facilities can be found in the 'Facilities' section of our website.",
+                    "You can explore DTU's amenities in detail on our website's 'Facilities' section.",
+                    "For details regarding DTU's facilities, please visit the 'Facilities' section on our website.",
+                    "To learn about DTU's amenities, visit the 'Facilities' section of our website.",
+                    "Details about DTU's facilities are available in the 'Facilities' section on our website."
+                ]
+            },
+            {
+                "tag": "facility_info_library",
+                "patterns": [
+                    "Tell me about the library",
+                    "What can you tell me about DTU's library?",
+                    "I want to learn about the library at DTU.",
+                    "Could you provide information about the library?",
+                    "Interested in knowing more about DTU's library.",
+                    "What are the features of DTU's library?",
+                    "Seeking information on the library at DTU.",
+                    "What resources are available at DTU's library?",
+                    "Can you describe the services offered by DTU's library?",
+                    "I'm curious about the amenities at DTU's library.",
+                    "What facilities does DTU's library provide?",
+                    "Tell me about the resources in DTU's library.",
+                    "I want to know more about DTU's library.",
+                    "What kind of books are available at DTU's library?",
+                    "Could you elaborate on the library facilities at DTU?",
+                    "Looking for details about DTU's library.",
+                    "What can I find in DTU's library?",
+                    "Tell me about the library services at DTU.",
+                    "Seeking information about the library resources at DTU.",
+                    "Can you provide details on DTU's library?"
+                ],
+                "responses": [
+                    "You can learn more about our library here: https://library.dtu.ac.in/",
+                    "Visit this link to explore DTU's library: https://library.dtu.ac.in/",
+                    "For detailed information about DTU's library, please visit: https://library.dtu.ac.in/",
+                    "Explore our library's offerings at: https://library.dtu.ac.in/",
+                    "Find out more about DTU's library by visiting: https://library.dtu.ac.in/"
+                ]
+            },
+
+            {
+                "tag": "facility_info_hostel",
+                "patterns": [
+                    "Information about hostels",
+                    "Can you tell me about DTU's hostels?",
+                    "I want to learn about the hostels at DTU.",
+                    "Could you provide information about DTU's hostels?",
+                    "Interested in knowing more about DTU's hostels.",
+                    "What are the features of DTU's hostels?",
+                    "Seeking information on the hostels at DTU.",
+                    "What amenities are available at DTU's hostels?",
+                    "Can you describe the services offered by DTU's hostels?",
+                    "I'm curious about the facilities at DTU's hostels.",
+                    "What facilities does DTU's hostels provide?",
+                    "Tell me about the accommodations in DTU's hostels.",
+                    "I want to know more about DTU's hostel facilities.",
+                    "Could you elaborate on the hostel facilities at DTU?",
+                    "Looking for details about DTU's hostels.",
+                    "What can I find in DTU's hostels?",
+                    "Tell me about the hostel services at DTU.",
+                    "Seeking information about the hostel facilities at DTU.",
+                    "Can you provide details on DTU's hostels?"
+                ],
+                "responses": [
+                    "Details about hostels are available here: http://hostels.dtu.ac.in/",
+                    "Visit this link to explore DTU's hostels: http://hostels.dtu.ac.in/",
+                    "For detailed information about DTU's hostels, please visit: http://hostels.dtu.ac.in/",
+                    "Explore our hostels' offerings at: http://hostels.dtu.ac.in/",
+                    "Find out more about DTU's hostels by visiting: http://hostels.dtu.ac.in/"
+                ]
+            },
+            {
+                "tag": "facility_info_computer_center",
+                "patterns": [
+                    "Details about the computer centre",
+                    "Can you provide information about the computer center?",
+                    "I want to learn about the computer facilities at DTU.",
+                    "Could you tell me about the computer center at DTU?",
+                    "Interested in knowing more about DTU's computer center.",
+                    "What are the features of DTU's computer center?",
+                    "Seeking information on the computer center at DTU.",
+                    "What services are available at DTU's computer center?",
+                    "Can you describe the resources offered by DTU's computer center?",
+                    "I'm curious about the facilities at DTU's computer center.",
+                    "What facilities does DTU's computer center provide?",
+                    "Tell me about the facilities available at DTU's computer center.",
+                    "I want to know more about DTU's computer center facilities.",
+                    "Could you elaborate on the computer center facilities at DTU?",
+                    "Looking for details about DTU's computer center.",
+                    "What can I find in DTU's computer center?",
+                    "Tell me about the services provided by DTU's computer center.",
+                    "Seeking information about the resources at DTU's computer center.",
+                    "Can you provide details on DTU's computer center?"
+                ],
+                "responses": [
+                    "The computer centre information can be found here: https://www.dtu.ac.in/Web/Facilities/ComputerCentre/about/"
+                ]
+            },
+
+            {
+                "tag": "latest_news",
+                "patterns": [
+                    "What's new at DTU?",
+                    "What are the recent updates?",
+                    "Any latest news?",
+                    "Tell me about the latest happenings.",
+                    "What's happening recently at DTU?",
+                    "Can you update me on recent events?",
+                    "I'm curious about the latest developments.",
+                    "What's the buzz at DTU?",
+                    "Seeking information on recent news.",
+                    "Any updates I should know about?",
+                    "What's the scoop on the latest updates?",
+                    "Looking for recent news and updates.",
+                    "Tell me about the newest developments.",
+                    "What's the latest buzz at DTU?",
+                    "Seeking information about recent events.",
+                    "Any news updates?",
+                    "Can you provide the latest happenings?",
+                    "I want to know about the recent news.",
+                    "Looking for the latest updates and news.",
+                    "Any recent announcements?"
+                ],
+                "responses": [
+                    "You can find the latest news and updates in the 'Latest News' section, here's a quick link: https://www.dtu.ac.in/",
+                    "Check out the most recent updates here in the 'Latest News' section: https://www.dtu.ac.in/"
+                ]
+            },
+            {
+                "tag": "locate_results",
+                "patterns": [
+                    "Where can I find the results?",
+                    "Show me the results section",
+                    "Results page location",
+                    "How to check exam results?",
+                    "Can you direct me to the results?",
+                    "I need to find my exam results.",
+                    "Where are the exam results located?",
+                    "How do I access the results?",
+                    "Looking for the exam results page.",
+                    "Seeking the location of exam results.",
+                    "How can I view my results?",
+                    "Where on the website can I find my results?",
+                    "How can I check my exam results?",
+                    "I want to know where to find my results.",
+                    "Looking for the section with exam results."
+                ],
+                "responses": [
+                    "You can find the results under the 'Examination & Result' section, which is listed on the right-hand side under 'Web Resources', for your reference result can be found here: https://exam.dtu.ac.in/",
+                    "To check your exam results, here's a quick link: https://exam.dtu.ac.in/"
+                ]
+            },
+
+            {
+                "tag": "locate_notices",
+                "patterns": [
+                    "Where are the notices?",
+                    "Show me the notices section",
+                    "Notices location",
+                    "How to find recent notices?",
+                    "Can you direct me to the notices?",
+                    "I need to find recent notices.",
+                    "Where are the notices located?",
+                    "How do I access the notices?",
+                    "Looking for the notices section.",
+                    "Seeking the location of recent notices.",
+                    "How can I view recent notices?",
+                    "Where on the website can I find notices?",
+                    "How can I check recent notices?",
+                    "I want to know where to find recent notices.",
+                    "Looking for the section with notices."
+                ],
+                "responses": [
+                    "You can find recent notices in the 'Notices' section on the left-hand side of the homepage, under the main header image.",
+                    "The 'Notices' section is located on the left side of the homepage, just below the main image."
+                ]
+            },
+      
+      
+     
+            {
+                "tag": "job_openings",
+                "patterns": [
+                    "Are there any job openings?",
+                    "Current job vacancies",
+                    "Job opportunities at DTU",
+                    "Any employment opportunities available?",
+                    "Can you tell me about job openings?",
+                    "I'm looking for job vacancies.",
+                    "Are there any positions available?",
+                    "Where can I find job opportunities?",
+                    "Seeking information about job openings.",
+                    "What are the current job vacancies?",
+                    "How can I find job opportunities at DTU?",
+                    "Interested in employment opportunities.",
+                    "Looking for openings at DTU.",
+                    "Can you provide details about job opportunities?",
+                    "Any job vacancies at DTU?"
+                ],
+                "responses": [
+                    "You can find current job openings in the 'Jobs' section on the left-hand side of the homepage.",
+                    "The 'Jobs' section on the left side of the homepage lists all current job vacancies at DTU."
+                ]
+            },
+            {
+                "tag": "tender_notices",
+                "patterns": [
+                    "Any tender notices?",
+                    "Current tenders",
+                    "Tender notices at DTU",
+                    "Are there any ongoing tenders?",
+                    "Can you tell me about tender notices?",
+                    "I'm interested in current tenders.",
+                    "Any opportunities for tenders?",
+                    "Where can I find tender notices?",
+                    "Seeking information about tender notices.",
+                    "What are the current tender notices?",
+                    "How can I find tender opportunities at DTU?",
+                    "Interested in tender notices.",
+                    "Looking for tender notices at DTU.",
+                    "Can you provide details about tender opportunities?",
+                    "Any tenders available at DTU?"
+                ],
+                "responses": [
+                    "Tender notices can be found in the 'Tenders' section on the left-hand side of the homepage.",
+                    "You can view all current tenders in the 'Tenders' section located on the left side of the homepage."
+                ]
+            },
+            {
+                "tag": "events",
+                "patterns": [
+                    "Upcoming events",
+                    "Events at DTU",
+                    "What's happening at DTU?",
+                    "Any upcoming activities?",
+                    "Can you tell me about events?",
+                    "I'm interested in upcoming events.",
+                    "What events are happening at DTU?",
+                    "Where can I find information about events?",
+                    "Seeking information about upcoming events.",
+                    "What are the upcoming events?",
+                    "How can I find out about events at DTU?",
+                    "Interested in events at DTU.",
+                    "Looking for information on events at DTU.",
+                    "Can you provide details about upcoming events?",
+                    "Any events happening at DTU?"
+                ],
+                "responses": [
+                    "You can find upcoming events in the 'Forthcoming Events' section on the left-hand side of the homepage.",
+                    "The 'Forthcoming Events' section lists all upcoming events and is located on the left side of the homepage."
+                ]
+            },
+            {
+                "tag": "student_welfare",
+                "patterns": [
+                    "Information on student welfare",
+                    "Student welfare services",
+                    "What student welfare services are available?",
+                    "Can you tell me about services for student welfare?",
+                    "I'm interested in student welfare information.",
+                    "What kind of student welfare services does DTU offer?",
+                    "Seeking information on student welfare at DTU.",
+                    "Where can I find student welfare services?",
+                    "How can students access welfare services?",
+                    "Looking for details about student welfare.",
+                    "What services are provided for student welfare?",
+                    "Tell me about student welfare support at DTU.",
+                    "I want to know about student welfare services.",
+                    "Looking for student welfare assistance.",
+                    "Can you provide information on student welfare?"
+                ],
+                "responses": [
+                    "You can find information about student welfare services in the 'Student Welfare' section of the website.",
+                    "The 'Student Welfare' section provides details on all available student services and can be found in the main navigation menu."
+                ]
+            },
+            {
+                "tag": "vision_mission",
+                "patterns": [
+                    "What is the vision of DTU?",
+                    "Mission statement of DTU",
+                    "DTU vision and mission",
+                    "Can you tell me about DTU's vision?",
+                    "What is DTU's mission statement?",
+                    "I'm interested in DTU's vision and mission.",
+                    "Seeking information on DTU's vision.",
+                    "Where can I find DTU's mission statement?",
+                    "What are the goals of DTU?",
+                    "Looking for details about DTU's vision and mission.",
+                    "What is DTU aiming for?",
+                    "Tell me about DTU's objectives.",
+                    "I want to know about DTU's vision and mission.",
+                    "Looking for DTU's guiding principles.",
+                    "Can you provide information on DTU's vision and mission?"
+                ],
+                "responses": [
+                    "DTU's vision and mission statements can be found in the 'About Us' section of the website.",
+                    "You can read about DTU's vision and mission here: [About Us Link]"
+                ]
+            }
+  ]
+}

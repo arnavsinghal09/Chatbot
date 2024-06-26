@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Admission requirements",
+    "intent": "admission_info",
+    "intent_prediction": {
+      "name": "exam_info",
+      "confidence": 0.5000025629997253
+    }
+  },
+  {
+    "text": "Can you tell me about upcoming events?",
+    "intent": "important_dates",
+    "intent_prediction": {
+      "name": "events",
+      "confidence": 0.6916765570640564
+    }
+  },
+  {
+    "text": "Upcoming events inquiry.",
+    "intent": "important_dates",
+    "intent_prediction": {
+      "name": "events",
+      "confidence": 0.44612571597099304
+    }
+  },
+  {
+    "text": "Seeking information about recent events.",
+    "intent": "latest_news",
+    "intent_prediction": {
+      "name": "events",
+      "confidence": 0.5902215838432312
+    }
+  }
+]
